@@ -1,0 +1,45 @@
+.outer-panel {
+    margin: 20px;
+  }
+  
+  .container-header {
+    text-align: left;
+  }
+  
+  .big-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: height 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .panel-container {
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+  }
+  
+  .panel {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .panel-toggle {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #666;
+    color: blue;
+  }
+  
+  .panel-toggle:active {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  .panel:active {
+    text-decoration: underline;
+    color: blue;
+  }
+  
